@@ -12,33 +12,14 @@
       <div class="col-lg-8 mx-auto">
         <div class="large text-muted">
           {{ site.data.sitetext[site.locale].schedule.body | markdownify }}
-          <h3>Day 1</h3>
           <table class="table table-hover">
             <thead class="thead-light"><tr>
-              {% for column_title in site.data.sitetext[site.locale].schedule.day1[0] %}
+              {% for column_title in site.data.sitetext[site.locale].schedule.events[0] %}
               <th scope="col">{{ column_title }}</th>
               {% endfor %}
             </tr></thead>
             <tbody>
-              {% for row in site.data.sitetext[site.locale].schedule.day1 offset:1 %}
-              <tr>
-                <th scope="row">{{ row[0] }}</th>
-                {% for item in row offset:1 %}
-                <td>{{ item }}</td>
-                {% endfor %}
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table><br/>
-          <h3>Day 2</h3>
-          <table class="table table-hover">
-            <thead class="thead-light"><tr>
-              {% for column_title in site.data.sitetext[site.locale].schedule.day2[0] %}
-              <th scope="col">{{ column_title }}</th>
-              {% endfor %}
-            </tr></thead>
-            <tbody>
-              {% for row in site.data.sitetext[site.locale].schedule.day2 offset:1 %}
+              {% for row in site.data.sitetext[site.locale].schedule.events offset:1 %}
               <tr>
                 <th scope="row">{{ row[0] }}</th>
                 {% for item in row offset:1 %}
@@ -66,33 +47,14 @@
       <div class="col-lg-8 mx-auto">
         <div class="large text-muted">
           {{ site.data.sitetext.schedule.body | markdownify }}
-          <h3>Day 1</h3>
           <table class="table table-hover">
             <thead class="thead-light"><tr>
-              {% for column_title in site.data.sitetext.schedule.day1[0] %}
+              {% for column_title in site.data.sitetext.schedule.events[0] %}
               <th scope="col">{{ column_title }}</th>
               {% endfor %}
             </tr></thead>
             <tbody>
-              {% for row in site.data.sitetext.schedule.day1 offset:1 %}
-              <tr>
-                <th scope="row">{{ row[0] }}</th>
-                {% for item in row offset:1 %}
-                <td>{{ item }}</td>
-                {% endfor %}
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table><br/>
-          <h3>Day 2</h3>
-          <table class="table table-hover">
-            <thead class="thead-light"><tr>
-              {% for column_title in site.data.sitetext.schedule.day2[0] %}
-              <th scope="col">{{ column_title }}</th>
-              {% endfor %}
-            </tr></thead>
-            <tbody>
-              {% for row in site.data.sitetext.schedule.day2 offset:1 %}
+              {% for row in site.data.sitetext.schedule.events offset:1 %}
               <tr>
                 <th scope="row">{{ row[0] }}</th>
                 {% for item in row offset:1 %}
