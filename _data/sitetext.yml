@@ -101,10 +101,10 @@ en: &DEFAULT_EN
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: program_committee
     people:
-      - name: "Asim Munawar"
+      - name: "Djallel Bouneffouf"
         role: "IBM Research"
-        image: assets/img/organizers/asim.jpg
-        website: https://research.ibm.com/people/asim-munawar
+        image: assets/img/organizers/djallel.jpg
+        website: https://scholar.google.com/citations?user=i2a1LUMAAAAJ&hl=en
       - name: "Elham J. Barezi"
         role: "Michigan State University"
         image: assets/img/organizers/elham.jpg
@@ -113,14 +113,22 @@ en: &DEFAULT_EN
         role: "City, University of London"
         image: assets/img/organizers/pranava.jpg
         website: https://www.city.ac.uk/about/people/academics/pranava-madhyastha
-      - name: "Abulhair Saparov"
-        role: "New York University"
-        image: assets/img/organizers/abu.jpg
-        website: https://asaparov.org/
-      - name: "Alexander Gray"
+      - name: "Asim Munawar"
         role: "IBM Research"
-        image: assets/img/organizers/alex.jpg
-        website: https://www.linkedin.com/in/alexander-gray-b554b64
+        image: assets/img/organizers/asim.png
+        website: https://research.ibm.com/people/asim-munawar
+      - name: "Parisa Kordjamshidi"
+        role: "Michigan State University"
+        image: assets/img/organizers/parisa.png
+        website: https://www.linkedin.com/in/parisa-kordjamshidi-3033281b/
+      # - name: "Abulhair Saparov"
+      #   role: "New York University"
+      #   image: assets/img/organizers/abu.jpg
+      #   website: https://asaparov.org/
+      # - name: "Alexander Gray"
+      #   role: "IBM Research"
+      #   image: assets/img/organizers/alex.jpg
+      #   website: https://www.linkedin.com/in/alexander-gray-b554b64
     reviewer_text: We sincerely thank the program committee for their considered and thoughtful reviews!
     reviewers:
       - name: TBD
