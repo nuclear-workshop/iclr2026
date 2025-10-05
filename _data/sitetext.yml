@@ -106,7 +106,7 @@ en: &DEFAULT_EN
         image: assets/img/organizers/djallel.png
         website: https://scholar.google.com/citations?user=i2a1LUMAAAAJ&hl=en
       - name: "Elham J. Barezi"
-        role: "Michigan State University"
+        role: "Purdue University"
         image: assets/img/organizers/elham.jpg
         website: https://www.linkedin.com/in/elham-barezi-15272453/
       - name: "Pranava Madhyastha"
