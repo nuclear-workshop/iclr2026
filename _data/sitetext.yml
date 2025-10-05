@@ -103,7 +103,7 @@ en: &DEFAULT_EN
     people:
       - name: "Djallel Bouneffouf"
         role: "IBM Research"
-        image: assets/img/organizers/djallel.jpg
+        image: assets/img/organizers/djallel.png
         website: https://scholar.google.com/citations?user=i2a1LUMAAAAJ&hl=en
       - name: "Elham J. Barezi"
         role: "Michigan State University"
